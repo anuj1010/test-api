@@ -13,3 +13,5 @@ app.get("/", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`server is connected and live on port ${PORT}`);
 });
+
+module.exports = app;
